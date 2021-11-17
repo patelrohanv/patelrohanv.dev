@@ -48,10 +48,11 @@ pnpm run lint
 
 ## Buzz Words
 - [npm](https://www.npmjs.com/)
-- [pnpm](https://pnpm.io/)
-- [vue](https://v3.vuejs.org/)
-- [tailwindcss](https://tailwindcss.com/)
-- [vuex](https://vuex.vuejs.org/)
-- [git](https://git-scm.com/)
+- Package Management: [pnpm](https://pnpm.io/)
+- Framework:[vue](https://v3.vuejs.org/)
+- State Management: [vuex](https://vuex.vuejs.org/)
+- UI Library: [vuetify](https://next.vuetifyjs.com/en/)
+- CSS Library: [tailwindcss](https://tailwindcss.com/)
 - [docker](https://www.docker.com/)
-- [netlify](https://www.netlify.com/)
+- Build/Deployment Env: [netlify](https://www.netlify.com/)
+- Version Control: [git](https://git-scm.com/)
