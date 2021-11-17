@@ -1,24 +1,57 @@
 # patelrohanv.dev
 
-## Project setup
+## Local Dev Setup
+### Install npm
+[Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+### Install pnpm
+```
+npm install -g pnpm
+```
+
+### Install dependencies
 ```
 pnpm install
 ```
 
-### Compiles and hot-reloads for development
+### Run Dev Server
 ```
 pnpm run serve
 ```
 
-### Compiles and minifies for production
+## Deploy (Netlify)
+### Set up Netlify
+```
+todo
+```
+
+## Manual Deploy 
 ```
 pnpm run build
 ```
+The output will be written to /dist (make sure this is not ignored in your `.gitignore`)
 
-### Lints and fixes files
+## Deploy (Docker)
+```
+todo
+```
+
+## Unit Tests
+### Run Locally
+```
+pnpm run test
+```
+
+## Lints and fixes files
 ```
 pnpm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Buzz Words
+- [npm](https://www.npmjs.com/)
+- [pnpm](https://pnpm.io/)
+- [vue](https://v3.vuejs.org/)
+- [tailwindcss](https://tailwindcss.com/)
+- [vuex](https://vuex.vuejs.org/)
+- [git](https://git-scm.com/)
+- [docker](https://www.docker.com/)
+- [netlify](https://www.netlify.com/)
