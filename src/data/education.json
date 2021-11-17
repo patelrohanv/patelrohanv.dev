@@ -1,0 +1,33 @@
+[
+    {
+        "key": "undergrad",
+        "name": "University of Pittsburgh",
+        "degrees": ["Bachelors of Science"],
+        "majors": ["Computer Science"],
+        "minors": [],
+        "started": "August 2013",
+        "graduated": "August 2017",
+        "courses": [
+            "Algorithm Implementation",
+            "Introduction to Operating Systems",
+            "Programming Languages for Web Applications",
+            "Introduction to Data Science",
+            "Software Engineering",
+            "Special Topics - Cloud Computing",
+            "Programming and System Design on a Mobile Robot Platform"
+        ]
+    },
+    {
+        "key": "masters",
+        "name": "Georgia Institute of Technology",
+        "degrees": ["Master of Science"],
+        "in": ["Computer Science"],
+        "specialization": [],
+        "started": "2018?",
+        "graduated": "dropped out",
+        "courses": [
+            "Database Systems, Concepts and Design",
+            "security?"
+        ]
+    }
+]

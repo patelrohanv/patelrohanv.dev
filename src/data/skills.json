@@ -1,0 +1,33 @@
+{
+    "languages": [
+        "Go",
+        "Python",
+        "Javascript/Typescript",
+        "Java",
+        "C#"
+    ],
+    "frameworks": [
+        "Flask",
+        "Angular",
+        "Vue"
+    ],
+    "libraries": [
+        "Storybook",
+        "HighCharts",
+        "Bootstrap",
+        "Angular Material"
+    ],
+    "tools": [
+        "Docker",
+        "Git",
+        "Bash",
+        "Teamcity",
+        "SQL",
+        "Neo4j"
+    ],
+    "hobbies": [
+        "dogs",
+        "dnd",
+        "dev stuff"
+    ]
+}

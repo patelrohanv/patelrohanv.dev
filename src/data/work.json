@@ -1,0 +1,77 @@
+[
+    {
+        "company": "Seegrid",
+        "title": "Software Engineer Full-Stack",
+        "start": "July 2019",
+        "end": "December 2021",
+        "details": [
+            "Writing software for a data analytics platform to provide insight into truck operations in client facilities",
+            "Wrote software to manage fleet of vision guided warehouse trucks",
+            "Built Python (Twisted) micro services to automate material moves using our trucks",
+            "Managed communication between server-side services and the trucks using RabbitMQ",
+            "Developed an API to allow customers to integrate our trucks into their existing warehouse systems",
+            "Developed and handled deployment of a Vue application to monitor material moves",
+            "Developed a map to display truck events within a customer facility",
+            "Automating operating reports generation with Vue, Node, and Azure",
+            "Developing a design system to be used across the company's UIs with Vue and Storybook"
+        ]
+    },
+    {
+        "company": "BNY Mellon",
+        "title": "Lead Developer",
+        "start": "August 2018",
+        "end": "June 2019",
+        "details": [
+            "Worked on the Bank's private cloud platform",
+            "Created a service to reconcile the state of deployed services using Go",
+            "Added API endpoints to automate deployments/updates for specific states of an app across multiple clusters using Go",
+            "Added API endpoints to automate stopping/deleting/scaling apps across multiple clusters using Go",
+            "Helped with campus recruiting efforts at career fairs, hackathons, and provide technical interviews for candidates"
+        ]
+    },
+    {
+        "company": "BNY Mellons",
+        "title": "Senior, Associate, Technology Leadership Program",
+        "start": "June 2017",
+        "end": "August 2018",
+        "details": [
+            "Researched Cloudera's Hadoop platform for my team's migration from Hortonworks",
+            "Worked with Hadoop, Hive, and Oozie to automate report generation and file monitoring on the HDFS",
+            "Worked on a web app using AngularJS and Python to preview data stored in HP Vertica for Enterprise Risk",
+            "Developed an internal BI Tool using Angular, HighCharts, Java, and SQL to generate data views, reports, and charts for users in Corporate Treasury"
+        ]
+    },
+    {
+        "company": "Giant Eagle, Inc.",
+        "title": "Software Engineering Intern",
+        "start": "June 2016",
+        "end": "August 2016",
+        "details": [
+            "Created endpoints and functions in Digital Commerce API to merge, split and transfer user reward points on accounts using C#",
+            "Optimized SQL queries and found under which cases they were failing"
+        ]
+    },
+    {
+        "company": "CosmoLex",
+        "title": "Software Engineering Intern",
+        "start": "April 2016",
+        "end": "May 2016",
+        "details": [
+            "Tested software efficiency by tracing function calls and data queries in order to determine which calls and queries could be more efficient or removed",
+            "Created application to read list of servers (Windows and Linux) to a grid that users could automatically open a remote session to them using C#"
+        ]
+    },
+    {
+        "company": "University of Pittsburgh",
+        "title": "Technology Intern",
+        "start": "August 2014",
+        "end": "August 2015",
+        "details": [
+            "Managed the computer labs and assisted personnel such as professors, faculty and administrators",
+            "Answered calls at the help desk for technical support",
+            "Created and resolved support tickets",
+            "Rebuilt and repaired computers, printers and other devices Managed and took care of the computer labs",
+            "Handled other such technology related problems"
+        ]
+    }
+]
