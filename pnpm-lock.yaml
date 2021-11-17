@@ -4,6 +4,7 @@ specifiers:
   '@mdi/font': 5.9.55
   '@vue/cli-plugin-babel': ~4.5.0
   '@vue/cli-plugin-eslint': ~4.5.0
+  '@vue/cli-plugin-vuex': ~4.5.0
   '@vue/cli-service': ~5.0.0-beta.3
   '@vue/compiler-sfc': ^3.0.0
   babel-eslint: ^10.1.0
@@ -17,7 +18,7 @@ specifiers:
   vue-cli-plugin-vuetify: ~2.4.3
   vuetify: ^3.0.0-alpha.0
   vuetify-loader: ^2.0.0-alpha.0
-  vuex: ^3.6.2
+  vuex: ^4.0.0-0
   webfontloader: ^1.0.0
 
 dependencies:
@@ -26,12 +27,13 @@ dependencies:
   roboto-fontface: 0.10.0
   vue: 3.2.22
   vuetify: 3.0.0-alpha.11_vue@3.2.22
-  vuex: 3.6.2_vue@3.2.22
+  vuex: 4.0.2_vue@3.2.22
   webfontloader: 1.6.28
 
 devDependencies:
   '@vue/cli-plugin-babel': 4.5.15_609fcbd0f4160d975607d4fa7bb73713
   '@vue/cli-plugin-eslint': 4.5.15_e6f6d8eaafd96c0ac6bdaf1a0c7de315
+  '@vue/cli-plugin-vuex': 4.5.15_@vue+cli-service@5.0.0-rc.1
   '@vue/cli-service': 5.0.0-rc.1_sass-loader@10.2.0
   '@vue/compiler-sfc': 3.2.22
   babel-eslint: 10.1.0_eslint@6.8.0
@@ -1702,6 +1704,14 @@ packages:
       '@vue/cli-shared-utils': 5.0.0-rc.1
     dev: true
 
+  /@vue/cli-plugin-vuex/4.5.15_@vue+cli-service@5.0.0-rc.1:
+    resolution: {integrity: sha512-fqap+4HN+w+InDxlA3hZTOGE0tzBTgXhKLoDydhywqgmhQ1D9JA6Feh94ze6tG8DsWX58/ujYUqA8jAz17FJtg==}
+    peerDependencies:
+      '@vue/cli-service': ^3.0.0 || ^4.0.0-0
+    dependencies:
+      '@vue/cli-service': 5.0.0-rc.1_sass-loader@10.2.0
+    dev: true
+
   /@vue/cli-plugin-vuex/5.0.0-rc.1_@vue+cli-service@5.0.0-rc.1:
     resolution: {integrity: sha512-ShfPIvuD+AFUtUcTw5okLUnBy8o4NrC0ICPpD7z+KG4gbfWzZMmT2TAkjqO9pp21cI+bYzigsBZ/FoXiU5+h7Q==}
     peerDependencies:
@@ -1891,6 +1901,10 @@ packages:
     optionalDependencies:
       prettier: 2.4.1
     dev: true
+
+  /@vue/devtools-api/6.0.0-beta.20.1:
+    resolution: {integrity: sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==}
+    dev: false
 
   /@vue/reactivity/3.2.22:
     resolution: {integrity: sha512-xNkLAItjI0xB+lFeDgKCrSItmrHTaAzSnt8LmdSCPQnDyarmzbi/u4ESQnckWvlL7lSRKiEaOvblaNyqAa7OnQ==}
@@ -8652,11 +8666,12 @@ packages:
       vue: 3.2.22
     dev: false
 
-  /vuex/3.6.2_vue@3.2.22:
-    resolution: {integrity: sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==}
+  /vuex/4.0.2_vue@3.2.22:
+    resolution: {integrity: sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q==}
     peerDependencies:
-      vue: ^2.0.0
+      vue: ^3.0.2
     dependencies:
+      '@vue/devtools-api': 6.0.0-beta.20.1
       vue: 3.2.22
     dev: false
 
