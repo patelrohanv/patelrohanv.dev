@@ -5,8 +5,8 @@
   >
     <v-card-header>
       <v-card-header-text>
-        <v-card-title>{{ title }} </v-card-title>
-        <v-card-subtitle>{{ organization }}</v-card-subtitle>
+        <v-card-title>{{ organization }} </v-card-title>
+        <v-card-subtitle>{{ title }}</v-card-subtitle>
         <v-card-subtitle>{{ start }}</v-card-subtitle>
         <v-card-subtitle>{{ end }}</v-card-subtitle>
       </v-card-header-text>

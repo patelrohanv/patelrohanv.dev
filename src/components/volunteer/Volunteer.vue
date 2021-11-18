@@ -7,7 +7,7 @@
       >
         <v-col>
           <VolunteerCard 
-            :company="v.company"
+            :organization="v.organization"
             :title="v.title"
             :start="v.start"
             :end="v.end"

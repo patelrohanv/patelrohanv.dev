@@ -2,22 +2,60 @@
   {
     "organization": "All World Gayatri Pariwar",
     "title": "Director (Austin), Coordinator (North Americaa)",
-    "start": "July 2013",
+    "start": "August 2009",
     "end": "",
-    "details": []
+    "details": [
+      "Run several weekly reading calls on spiritual and philosophical texts",
+      "Organize quarterly virtual workshops on the intersection of modern issues and spirituality",
+      "Manage communication with local chapters across the US and Canada",
+      "Manage distribution of the organization's podcast"
+    ]
   },
   {
-    "organization": "ForEyes",
-    "title": "",
+    "organization": "Sigma Beta Rho, Fraternity Inc. ",
+    "title": "Regional Governor (PA)",
+    "start": "April 2014",
+    "end": "January 2020",
+    "details": [
+      "Oversaw all university chapters in the PA region",
+      "Bridged communication between university chapters and the National Executive Board",
+      "Managed budget for and organized regional events",
+      "Provided assistance to struggling chapters",
+      "Previously served as Alumni Advisor, Chapter Treasurer, and Chapter Secretary"
+    ]
+  },
+  {
+    "organization": "Hindu Jain Temple",
+    "title": "Volunteer Teacher",
     "start": "",
     "end": "",
-    "details": []
+    "details": [
+      "Taught classes on Hindu values and culture",
+      "Worked on creating curriculum using modern examples and stories to explain ancient beliefs"
+    ]
+  },
+  {
+    "organization": "ForEyes Optical",
+    "title": "Intern",
+    "start": "June 2014",
+    "end": "July 2014",
+    "details": [
+      "Interned under Bruce Hillman O.D. for two months learning about:",
+      "- Eye care",
+      "- Diseases relating to the eyes",
+      "- Problems relating to vision",
+      "- Interacting with patients and their families in order to make them feel comfortable."
+    ]
   },
   {
     "organization": "UPMC Shadyside",
-    "title": "",
-    "start": "",
-    "end": "",
-    "details": []
-  }
+    "title": "Volunteer",
+    "start": "January 2014",
+    "end": "June 2014",
+    "details": [
+      "Volunteered in the Infection Control, Emergency, and Patient Relations departments at UPMC Shadyside hospital",
+      "Learned how to communicate with the patients and their families along with the hospital staff",
+      "Volunteered with the Special Projects department helping with hospital-run events and non-patient jobs"
+    ]
+  } 
 ]
