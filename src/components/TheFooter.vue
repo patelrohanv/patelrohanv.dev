@@ -1,51 +1,29 @@
 <template>
-  <div>
-    <v-btn
-      class="ma-2"
-      outlined
-      large
-      fab
-      :link=linkedIn.url
-    >
-      <v-icon
-        dark
-        x-large
+  <v-divider></v-divider>
+  <v-card height="100%">
+    <v-footer>
+      <v-card
+        flat
+        tile
+        width="100%"
+        class="text-center"
       >
-        mdi-linkedin
-      </v-icon>
-    </v-btn>
-    
-    <v-btn
-      class="ma-2"
-      outlined
-      large
-      fab
-      :link="github.url"
-    >
-      <v-icon
-        dark
-        x-large
-      >
-        mdi-github
-      </v-icon>
-    </v-btn>
-
-    <v-btn
-      class="ma-2"
-      outlined
-      large
-      fab
-      :link="resume.url"
-    >
-      <v-icon
-        dark
-        x-large
-      >
-        mdi-file-account
-      </v-icon>
-    </v-btn>
-
-  </div>
+        <v-card-text>
+          <v-btn
+            v-for="v in values"
+            :key="v.icon"
+            class="mx-4"
+            icon
+            size="x-large"
+          >
+            <v-icon size="24px">
+              {{ v.icon }}
+            </v-icon>
+          </v-btn>
+        </v-card-text>
+      </v-card>
+    </v-footer>
+  </v-card>
 </template>
 
 <script>
@@ -56,16 +34,10 @@ export default {
 
   },
   computed: {
-    github() {
-      return this.$store.getters['socialMedia/getGithub']
+    values() {
+      return this.$store.getters['socialMedia/getValues']
     },
-    linkedIn() {
-      return this.$store.getters['socialMedia/getLinkedIn']
-    },
-    resume() {
-      return this.$store.getters['socialMedia/getResume']
-    },
-  },
+  }
 }
 </script>
 

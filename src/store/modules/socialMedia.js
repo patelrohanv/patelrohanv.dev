@@ -1,43 +1,20 @@
 const actions = {
-    setGithub({ commit }, github) {
-        commit('setGithub', github);
-    },
-    setLinkedIn({ commit }, linkedIn) {
-        commit('setLinkedIn', linkedIn);
-    },
-    setResume({ commit }, resume) {
-        commit('setResume', resume);
+    setValues({ commit }, values) {
+        commit('setValues', values);
     }
 };
 const getters = {
-    getState: state => {
-        return state
-    },
-    getGithub: state => {
-        return state.github;
-    },
-    getLinkedIn: state => {
-        return state.linkedIn;
-    },
-    getResume: state => {
-        return state.resume;
+    getValues: state => {
+        return state.values;
     }
 };
 const mutations = {
-    setGithub(state, github) {
-        state.github = github;
-    },
-    setLinkedIn(state, linkedIn) {
-        state.linkedIn = linkedIn;
-    },
-    setResume(state, resume) {
-        state.resume = resume;
+    setValues(state, values) {
+        state.values = values;
     }
 };
 const state = () => ({
-    github: {},
-    linkedIn: {},
-    resume: {}
+    values: []
 });
 
 export default {

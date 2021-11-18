@@ -24,8 +24,8 @@ import Work from '@/components/work/Work.vue';
 
 import educationList from '@/data/education.json';
 import projectsList from '@/data/projects.json';
-import skillsJSON from '@/data/skills.json';
-import socialMediaJSON from '@/data/socialMedia.json';
+import skillsList from '@/data/skills.json';
+import socialMediaList from '@/data/socialMedia.json';
 import workList from '@/data/work.json';
 
 export default {
@@ -44,15 +44,9 @@ export default {
 
     await this.$store.dispatch('projects/setValues', projectsList);
 
-    await this.$store.dispatch('skills/setLanguages', skillsJSON.languages);
-    await this.$store.dispatch('skills/setFrameworks', skillsJSON.frameworks);
-    await this.$store.dispatch('skills/setLibraries', skillsJSON.libraries);
-    await this.$store.dispatch('skills/setTools', skillsJSON.tools);
-    await this.$store.dispatch('skills/setHobbies', skillsJSON.hobbies);
+    await this.$store.dispatch('skills/setValues', skillsList);
 
-    await this.$store.dispatch('socialMedia/setGithub', socialMediaJSON.github);
-    await this.$store.dispatch('socialMedia/setLinkedIn', socialMediaJSON.linkedIn);
-    await this.$store.dispatch('socialMedia/setResume', socialMediaJSON.resume);
+    await this.$store.dispatch('socialMedia/setValues', socialMediaList);
 
     await this.$store.dispatch('work/setValues', workList);
   },

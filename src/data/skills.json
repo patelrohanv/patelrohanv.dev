@@ -1,33 +1,48 @@
-{
-    "languages": [
-        "Go",
-        "Python",
-        "Javascript/Typescript",
-        "Java",
-        "C#"
-    ],
-    "frameworks": [
-        "Flask",
-        "Angular",
-        "Vue"
-    ],
-    "libraries": [
-        "Storybook",
-        "HighCharts",
-        "Bootstrap",
-        "Angular Material"
-    ],
-    "tools": [
-        "Docker",
-        "Git",
-        "Bash",
-        "Teamcity",
-        "SQL",
-        "Neo4j"
-    ],
-    "hobbies": [
-        "dogs",
-        "dnd",
-        "dev stuff"
+[
+  {
+    "key": "languages",
+    "value": [
+      "Go",
+      "Python",
+      "Javascript/Typescript",
+      "Java",
+      "C#"
     ]
-}
+  },
+  {
+    "key": "frameworks",
+    "value": [
+      "Flask",
+      "Angular",
+      "Vue"
+    ]
+  },
+  {
+    "key": "libraries",
+    "value": [
+      "Storybook",
+      "HighCharts",
+      "Bootstrap",
+      "Angular Material"
+    ]
+  },
+  {
+    "key": "tools",
+    "value": [
+      "Docker",
+      "Git",
+      "Bash",
+      "Teamcity",
+      "SQL",
+      "Neo4j"
+    ]
+  },
+  {
+    "key": "hobbies",
+    "value": [
+      "dogs",
+      "dnd",
+      "dev stuff"
+    ]
+  }
+]

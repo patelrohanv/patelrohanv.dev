@@ -1,5 +1,21 @@
 <template>
   <div>
+    <v-container class="grey lighten-5">
+      <v-row
+        v-for="v in values"
+        :key="v.key"
+      >
+        <v-col>
+          <v-card
+            class="pa-2"
+            outlined
+            tile
+          >
+            {{ v.value }}
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -7,22 +23,10 @@
 export default {
   name: "Skills",
   computed: {
-    languages() {
-      return this.$store.getters['skills/getLanguages']
+    values() {
+      return this.$store.getters['skills/getValues']
     },
-    frameworks() {
-      return this.$store.getters['skills/getFrameworks']
-    },
-    libraries() {
-      return this.$store.getters['skills/getLibraries']
-    },
-    tools() {
-      return this.$store.getters['skills/getTools']
-    },
-    hobbies() {
-      return this.$store.getters['skills/getHobbies']
-    },
-  }  
+  } 
 }
 </script>
 

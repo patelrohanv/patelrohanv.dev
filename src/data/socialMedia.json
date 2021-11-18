@@ -1,14 +1,20 @@
-{
-    "github": {
+[
+    {
+        "name": "github",
         "handle": "patelrohanv",
-        "url": "https://github.com/patelrohanv"
+        "url": "https://github.com/patelrohanv",
+        "icon": "mdi-github"
     },
-    "linkedIn": {
+    {
+        "name": "linkedIn",
         "handle": "patelrohanv",
-        "url": "https://www.linkedin.com/in/patelrohanv/"
+        "url": "https://www.linkedin.com/in/patelrohanv/",
+        "icon": "mdi-linkedin"
     },
-    "resume": {
+    {
+        "name": "creddle",
         "handle": "resume",
-        "url": ""
+        "url": "",
+        "icon": "mdi-file-account"
     }
-}
+]

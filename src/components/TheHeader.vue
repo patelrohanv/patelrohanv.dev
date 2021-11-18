@@ -1,6 +1,6 @@
 <template>
     <header>
-      <v-parallax
+      <v-parallax 
         dark
         src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
       >
