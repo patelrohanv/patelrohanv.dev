@@ -1,8 +1,20 @@
-const actions = {};
-const getters = {};
-const mutations = {};
+const actions = {
+    setValues({ commit }, values) {
+        commit('setValues', values);
+    }
+};
+const getters = {
+    getValues: state => {
+        return state.values;
+    }
+};
+const mutations = {
+    setValues(state, values) {
+        state.values = values;
+    }
+};
 const state = () => ({
-    items: []
+    values: []
 });
 
 export default {
