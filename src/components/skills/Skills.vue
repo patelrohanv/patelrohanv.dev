@@ -1,16 +1,12 @@
 <template>
   <div>
-    <v-container class="grey lighten-5">
+    <v-container>
       <v-row
         v-for="v in values"
         :key="v.key"
       >
         <v-col>
-          <v-card
-            class="pa-2"
-            outlined
-            tile
-          >
+          <v-card>
             {{ v.value }}
           </v-card>
         </v-col>
