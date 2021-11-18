@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "roboto-fontface": "*",
     "vue": "^3.0.0",
+    "vue-types": "^4.1.1",
     "vuetify": "^3.0.0-alpha.0",
     "vuex": "^4.0.0-0",
     "webfontloader": "^1.0.0"

@@ -6,8 +6,16 @@
         :key="v.key"
       >
         <v-col>
-          <v-card>
-            {{ v.value }}
+          <v-card
+            outlined
+            shaped
+          >
+            <v-card-header>
+              <v-card-header-text>
+                <v-card-title>{{ v.key }} </v-card-title>
+              </v-card-header-text>
+            </v-card-header>
+            <v-card-text>{{ v.value }}</v-card-text>
           </v-card>
         </v-col>
       </v-row>

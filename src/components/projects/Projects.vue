@@ -6,9 +6,12 @@
         :key="v.key"
       >
         <v-col>
-          <v-card>
-            {{ v.repo }}
-          </v-card>
+          <ProjectCard 
+            :title="v.title"
+            :description="v.description"
+            :repo="v.repo"
+            :link="v.link"
+          />
         </v-col>
       </v-row>
     </v-container>
@@ -16,8 +19,13 @@
 </template>
 
 <script>
+import ProjectCard from '@/components/projects/ProjectCard.vue';
+
 export default {
   name: "Projects",
+  components: {
+    ProjectCard
+  },
   computed: {
     values() {
       return this.$store.getters['projects/getValues']

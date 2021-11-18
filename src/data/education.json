@@ -1,7 +1,7 @@
 [
     {
         "key": "undergrad",
-        "name": "University of Pittsburgh",
+        "school": "University of Pittsburgh",
         "degrees": ["Bachelors of Science"],
         "majors": ["Computer Science"],
         "minors": [],
@@ -19,7 +19,7 @@
     },
     {
         "key": "masters",
-        "name": "Georgia Institute of Technology",
+        "school": "Georgia Institute of Technology",
         "degrees": ["Master of Science"],
         "in": ["Computer Science"],
         "specialization": [],
