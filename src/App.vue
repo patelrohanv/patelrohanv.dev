@@ -2,7 +2,12 @@
   <v-app>
     <v-main>
     <TheHeader />
-    <!-- <HelloWorld /> -->
+
+    <Skills />
+    <Work />
+    <Projects />
+    <Education />
+      
     <TheFooter />
     </v-main>
   </v-app>
@@ -11,6 +16,11 @@
 <script>
 import TheHeader from '@/components/TheHeader.vue';
 import TheFooter from '@/components/TheFooter.vue';
+
+import Education from '@/components/education/Education.vue';
+import Projects from '@/components/projects/Projects.vue';
+import Skills from '@/components/skills/Skills.vue';
+import Work from '@/components/work/Work.vue';
 
 import educationList from '@/data/education.json';
 import projectsList from '@/data/projects.json';
@@ -23,7 +33,11 @@ export default {
 
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
+    Education,
+    Projects,
+    Skills,
+    Work
   },
   async beforeCreate() {
     await this.$store.dispatch('education/setValues', educationList);
@@ -41,27 +55,6 @@ export default {
     await this.$store.dispatch('socialMedia/setResume', socialMediaJSON.resume);
 
     await this.$store.dispatch('work/setValues', workList);
-
   },
-  computed: {
-    education() {
-      return this.$store.getters['education/getValues']
-    },
-    projects() {
-      return this.$store.getters['projects/getValues']
-    },
-    skills() {
-      return this.$store.getters['skills/getValues']
-    },
-    socialMedia() {
-      return this.$store.getters['socialMedia/getState']
-    },
-    work() {
-      return this.$store.getters['work/getValues']
-    },
-  },
-  data: () => ({
-    //
-  }),
 }
 </script>

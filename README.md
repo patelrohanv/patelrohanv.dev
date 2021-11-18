@@ -3,19 +3,19 @@
 ## Local Dev Setup
 ### Install npm
 [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-### Install pnpm
+### Install yarn
 ```
-npm install -g pnpm
+npm install --global yarn
 ```
 
 ### Install dependencies
 ```
-pnpm install
+yarn install
 ```
 
 ### Run Dev Server
 ```
-pnpm run serve
+yarn run serve
 ```
 
 ## Deploy (Netlify)
@@ -26,7 +26,7 @@ todo
 
 ## Manual Deploy 
 ```
-pnpm run build
+yarn run build
 ```
 The output will be written to /dist (make sure this is not ignored in your `.gitignore`)
 
@@ -38,21 +38,20 @@ todo
 ## Unit Tests
 ### Run Locally
 ```
-pnpm run test
+yarn run test
 ```
 
 ## Lints and fixes files
 ```
-pnpm run lint
+yarn run lint
 ```
 
 ## Buzz Words
 - [npm](https://www.npmjs.com/)
-- Package Management: [pnpm](https://pnpm.io/)
+- Package Management: [yarn](https://yarnpkg.com/)
 - Framework:[vue](https://v3.vuejs.org/)
 - State Management: [vuex](https://vuex.vuejs.org/)
 - UI Library: [vuetify](https://next.vuetifyjs.com/en/)
-- CSS Library: [tailwindcss](https://tailwindcss.com/)
 - [docker](https://www.docker.com/)
 - Build/Deployment Env: [netlify](https://www.netlify.com/)
 - Version Control: [git](https://git-scm.com/)
