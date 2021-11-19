@@ -1,33 +1,31 @@
 <template>
   <v-app>
+    <v-app-bar
+      absolute
+      shrink-on-scroll
+      prominent
+    >
+      <TheHeader 
+        :name="name"
+        :location="location"
+      />
+    </v-app-bar>
     <v-main>
-    <TheHeader 
-      :name="name"
-      :location="location"
-    />
-
-    <Skills />
-    <Work />
-    <Life />
-    <Projects />
-    <Volunteer />
-    <Education />
-      
-    <TheFooter />
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
     </v-main>
+    <v-footer
+      padles
+    >
+      <TheFooter />
+    </v-footer>
   </v-app>
 </template>
 
 <script>
 import TheHeader from '@/components/TheHeader.vue';
 import TheFooter from '@/components/TheFooter.vue';
-
-import Education from '@/components/education/Education.vue';
-import Life from '@/components/life/Life.vue';
-import Projects from '@/components/projects/Projects.vue';
-import Skills from '@/components/skills/Skills.vue';
-import Volunteer from '@/components/volunteer/Volunteer.vue';
-import Work from '@/components/work/Work.vue';
 
 import educationList from '@/data/education.json';
 import lifeList from '@/data/life.json';
@@ -45,12 +43,6 @@ export default {
   components: {
     TheHeader,
     TheFooter,
-    Education,
-    Life,
-    Projects,
-    Skills,
-    Volunteer,
-    Work
   },
   async beforeCreate() {
 

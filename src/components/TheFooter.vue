@@ -1,27 +1,28 @@
 <template>
-  <v-divider></v-divider>
-  <v-footer>
-    <v-card
-      flat
-      tile
-      width="100%"
-      class="text-center"
+  <v-container>
+    <v-row
+      justify="center"
+      no-gutters
     >
-      <v-card-text>
-        <v-btn
-          v-for="v in values"
-          :key="v.icon"
-          class="mx-4"
-          icon
-          size="x-large"
-        >
-          <v-icon size="24px">
-            {{ v.icon }}
-          </v-icon>
-        </v-btn>
-      </v-card-text>
-    </v-card>
-  </v-footer>
+      <v-btn
+        v-for="v in values"
+        :key="v.key"
+        icon
+        size="x-large"
+        class="mx-2"
+      >
+        <v-icon size="24px">
+          {{ v.icon }}
+        </v-icon>
+      </v-btn>
+      <v-col
+        class="primary lighten-2 py-4 text-center white--text"
+        cols="12"
+      >
+        {{ new Date().getFullYear() }} — <strong>Rohan Patel</strong>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

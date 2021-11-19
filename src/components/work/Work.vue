@@ -1,22 +1,20 @@
 <template>
-  <div>
-    <v-container>
-      <v-row
-        v-for="v in values"
-        :key="v.key"
-      >
-        <v-col>
-          <WorkCard 
-            :company="v.company"
-            :title="v.title"
-            :start="v.start"
-            :end="v.end"
-            :details="v.details"
-          />
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+  <v-container>
+    <v-row
+      v-for="v in values"
+      :key="v.key"
+    >
+      <v-col>
+        <WorkCard 
+          :company="v.company"
+          :title="v.title"
+          :start="v.start"
+          :end="v.end"
+          :details="v.details"
+        />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

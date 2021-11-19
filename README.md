@@ -1,5 +1,5 @@
 # patelrohanv.dev
-
+#### disclaimer this project uses [Vuetify 3 Alpha](https://next.vuetifyjs.com/en/getting-started/installation/) and is not intended for any kind of production use
 ## Local Dev Setup
 ### Install npm
 [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)

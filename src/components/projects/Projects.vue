@@ -1,21 +1,19 @@
 <template>
-  <div>
-    <v-container>
-      <v-row
-        v-for="v in values"
-        :key="v.key"
-      >
-        <v-col>
-          <ProjectCard 
-            :title="v.title"
-            :description="v.description"
-            :repo="v.repo"
-            :link="v.link"
-          />
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+  <v-container>
+    <v-row
+      v-for="v in values"
+      :key="v.key"
+    >
+      <v-col>
+        <ProjectCard 
+          :title="v.title"
+          :description="v.description"
+          :repo="v.repo"
+          :link="v.link"
+        />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

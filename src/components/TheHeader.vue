@@ -1,5 +1,5 @@
 <template>
-    <header>
+  <v-container>
       <v-row
         align="center"
         justify="center"
@@ -16,7 +16,7 @@
           </h4>
         </v-col>
       </v-row>
-    </header>
+  </v-container>
 </template>
 
 <script>

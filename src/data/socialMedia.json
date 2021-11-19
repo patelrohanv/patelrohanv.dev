@@ -1,19 +1,21 @@
 [
     {
-        "name": "github",
+        "key": "github",
+        "value": "Github",
         "handle": "patelrohanv",
         "url": "https://github.com/patelrohanv",
         "icon": "mdi-github"
     },
     {
-        "name": "linkedIn",
+        "key": "linkedIn",
+        "value": "LinkedIn",
         "handle": "patelrohanv",
         "url": "https://www.linkedin.com/in/patelrohanv/",
         "icon": "mdi-linkedin"
     },
     {
-        "name": "creddle",
-        "handle": "resume",
+        "key": "creddle",
+        "value": "Resume",
         "url": "",
         "icon": "mdi-file-account"
     }

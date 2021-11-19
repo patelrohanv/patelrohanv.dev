@@ -1,24 +1,22 @@
 <template>
-  <div>
-    <v-container>
-      <v-row
-        v-for="v in values"
-        :key="v.key"
-      >
-        <v-col>
-          <EducationCard 
-            :school="v.school"
-            :degrees="v.degrees"
-            :majors="v.majors"
-            :minors="v.minors"
-            :started="v.started"
-            :graduated="v.graduated"
-            :courses="v.courses"
-          />
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+  <v-container>
+    <v-row
+      v-for="v in values"
+      :key="v.key"
+    >
+      <v-col>
+        <EducationCard 
+          :school="v.school"
+          :degrees="v.degrees"
+          :majors="v.majors"
+          :minors="v.minors"
+          :started="v.started"
+          :graduated="v.graduated"
+          :courses="v.courses"
+        />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
