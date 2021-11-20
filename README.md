@@ -32,6 +32,12 @@ yarn run serve
 todo
 ```
 
+## Deploy (Github Pages)
+### Set up Github Pages
+```
+todo
+```
+
 ## Manual Deploy 
 ```
 yarn run build
@@ -46,7 +52,7 @@ todo
 ## Unit Tests
 ### Run Locally
 ```
-yarn run test
+yarn run test:unit
 ```
 
 ## Lints and fixes files
@@ -61,6 +67,8 @@ yarn run lint
 - Router: [vue-router](https://router.vuejs.org/)
 - State Management: [vuex](https://vuex.vuejs.org/)
 - UI Library: [vuetify](https://next.vuetifyjs.com/en/)
+- Testing Framework [jest](https://jestjs.io/)
+- Testing Utils [Vue Test Utils](https://next.vue-test-utils.vuejs.org/)
 - [docker](https://www.docker.com/)
 - Build/Deployment Env: [netlify](https://www.netlify.com/)
 - Version Control: [git](https://git-scm.com/)
