@@ -16,7 +16,13 @@
     {
         "key": "creddle",
         "value": "Resume",
-        "url": "",
+        "url": "https://resume.creddle.io/resume/mv7do3zgiw",
         "icon": "mdi-file-account"
+    },
+    {
+        "key": "techrez",
+        "value": "TechRez",
+        "url": "https://techrez.io/resume/rohan-patel",
+        "icon": "mdi-account-tie"
     }
 ]

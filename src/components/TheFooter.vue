@@ -10,6 +10,7 @@
         icon
         size="x-large"
         class="mx-2"
+        @click="clicked(v.url)"
       >
         <v-icon size="24px">
           {{ v.icon }}
@@ -36,6 +37,11 @@ export default {
     values() {
       return this.$store.getters['socialMedia/getValues']
     },
+  },
+  methods: {
+    clicked (url) {
+      window.open(url , "_blank");
+    }
   }
 }
 </script>
