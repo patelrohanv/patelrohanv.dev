@@ -1,29 +1,31 @@
 <template>
   <v-app>
-    <v-app-bar
-      absolute
-      shrink-on-scroll
-      prominent
-    >
-      <TheHeader 
-        :name="name"
-        :location="location"
-      />
-    </v-app-bar>
-    <v-main>
-    <!-- <v-container>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </v-container> -->
-      <v-container fluid>
-        <router-view></router-view>
-      </v-container>
-    </v-main>
-    <v-footer
-      padles
-    >
-      <TheFooter />
+    <v-theme-provider theme="dark" with-background class="pa-10">
+      <v-app-bar
+        absolute
+        shrink-on-scroll
+        prominent
+      >
+        <TheHeader 
+          :name="name"
+          :location="location"
+        />
+      </v-app-bar>
+      <v-main>
+      <!-- <v-container>
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link>
+      </v-container> -->
+        <v-container fluid>
+          <router-view></router-view>
+        </v-container>
+      </v-main>
+      <v-footer
+        padles
+      >
+        <TheFooter />
     </v-footer>
+    </v-theme-provider>
   </v-app>
 </template>
 
