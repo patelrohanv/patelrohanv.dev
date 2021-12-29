@@ -2,6 +2,7 @@
   <v-card
     outlined
     shaped
+    class="mx-auto"
   >
     <v-card-header>
       <v-card-header-text>
@@ -13,7 +14,20 @@
       </v-card-header-text>
     </v-card-header>
 
-    <v-card-text>{{ courses }}</v-card-text>
+    <v-card-text>
+      <v-list
+      density="compact"
+      >
+        <v-list-item
+          v-for="c in courses"
+          :key="c"
+        >
+          <v-list-item-content>
+            <v-list-item-title v-text="c"></v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-card-text>
   </v-card>
 </template>
 

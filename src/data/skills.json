@@ -4,7 +4,8 @@
     "value": [
       "Go",
       "Python",
-      "Javascript/Typescript",
+      "Javascript",
+      "Typescript",
       "Java",
       "C#"
     ]
@@ -20,10 +21,12 @@
   {
     "key": "libraries",
     "value": [
+      "Pytest",
       "Storybook",
       "HighCharts",
       "Bootstrap",
-      "Angular Material"
+      "Material UI",
+      "Vuex"
     ]
   },
   {
@@ -31,18 +34,10 @@
     "value": [
       "Docker",
       "Git",
-      "Bash",
+      "Bash/Linux",
       "Teamcity",
       "SQL",
       "Neo4j"
-    ]
-  },
-  {
-    "key": "hobbies",
-    "value": [
-      "dogs",
-      "dnd",
-      "dev stuff"
     ]
   }
 ]

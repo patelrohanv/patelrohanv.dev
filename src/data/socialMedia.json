@@ -14,15 +14,21 @@
         "icon": "mdi-linkedin"
     },
     {
-        "key": "creddle",
-        "value": "Resume",
-        "url": "https://resume.creddle.io/resume/mv7do3zgiw",
-        "icon": "mdi-file-account"
+        "key": "blog",
+        "value": "Blog",
+        "url": "https://patelrohanv.blog/",
+        "icon": "mdi-post"
     },
     {
         "key": "techrez",
         "value": "TechRez",
         "url": "https://techrez.io/resume/rohan-patel",
         "icon": "mdi-account-tie"
+    },
+    {
+        "key": "creddle",
+        "value": "Resume",
+        "url": "https://resume.creddle.io/resume/mv7do3zgiw",
+        "icon": "mdi-file-document"
     }
 ]

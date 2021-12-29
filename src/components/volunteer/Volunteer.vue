@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <v-row
-      v-for="v in values"
-      :key="v.key"
-    >
-      <v-col>
+    <v-row>
+      <v-col
+        v-for="v in values"
+        :key="v.key"
+      >
         <VolunteerCard 
           :organization="v.organization"
           :title="v.title"
