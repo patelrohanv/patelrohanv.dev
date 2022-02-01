@@ -1,39 +1,32 @@
 <template>
   <v-footer
-      padless
-      rounded
+    class="text-white text-center d-flex flex-column"
+  >
+    <div
+      class="pa-md-4"
     >
-      <v-card
-        flat
-        tile
-        class="white--text text-center"
+      <v-btn
+        v-for="v in values"
+        :key="v.key"
+        :icon="v.icon"
+        size="x-large"
+        class="mx-4 text-white"
+        @click="clicked(v.url)"    
+        variant="text"
       >
-        <v-card-text>
-          <v-btn
-            v-for="v in values"
-            :key="v.key"
-            icon
-            size="x-large"
-            class="mx-2"
-            @click="clicked(v.url)"
-          >
-            <v-icon size="24px">
-              {{ v.icon }}
-            </v-icon>
-          </v-btn>
-        </v-card-text>
-  
-        <v-card-text class="white--text pt-0">
-          <a href="https://github.com/patelrohanv/patelrohanv.dev">Feel free to Clone/Fork me!</a>
-        </v-card-text>
-  
-        <v-divider></v-divider>
-  
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>Rohan Patel</strong>
-        </v-card-text>
-      </v-card>
-    </v-footer>
+      </v-btn>
+    </div>
+
+    <div class="text-white pt-0">
+      <a href="https://github.com/patelrohanv/patelrohanv.dev">Feel free to Clone/Fork me!</a>
+    </div>
+
+    <v-divider></v-divider>
+
+    <div class="pa-md-4 text-white">
+      {{ new Date().getFullYear() }} — <strong>Rohan Patel</strong>
+    </div>
+  </v-footer>
 </template>
 
 <script>

@@ -1,7 +1,5 @@
 <template>
-  <v-container>
-    <Life />
-  </v-container>
+  <Life />
 </template>
 
 <script>

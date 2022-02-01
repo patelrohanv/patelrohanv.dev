@@ -1,30 +1,18 @@
 <template>
   <v-app>
     <v-theme-provider theme="dark" with-background class="pa-10">
-      <v-app-bar
-        absolute
-        shrink-on-scroll
-        prominent
-      >
-        <TheHeader 
-          :name="name"
-          :location="location"
-        />
-      </v-app-bar>
+      <TheHeader 
+        :name="name"
+        :location="location"
+      />
       <v-main>
       <!-- <v-container>
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link>
       </v-container> -->
-        <v-container fluid>
-          <router-view></router-view>
-        </v-container>
+        <router-view></router-view>
       </v-main>
-      <v-footer
-        padles
-      >
-        <TheFooter />
-    </v-footer>
+      <TheFooter />
     </v-theme-provider>
   </v-app>
 </template>

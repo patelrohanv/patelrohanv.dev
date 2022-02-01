@@ -1,22 +1,14 @@
 <template>
-  <v-container>
-      <v-row
-        align="center"
-        justify="center"
-      >
-        <v-col
-          class="text-center"
-          cols="12"
-        >
-          <h1 class="text-h4 font-weight-thin mb-4">
-            {{ name }}
-          </h1>
-          <h4 class="subheading">
-            {{ description }}
-          </h4>
-        </v-col>
-      </v-row>
-  </v-container>
+  <v-card
+  width="100%"
+  >
+    <v-card-title>
+      {{ name }}
+    </v-card-title>
+    <v-card-text>
+      {{ description }}
+    </v-card-text>
+  </v-card>
 </template>
 
 <script>

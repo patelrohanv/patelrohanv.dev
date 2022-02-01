@@ -3,6 +3,7 @@
     outlined
     shaped
     class="mx-auto"
+    height="100%"
   >
     <v-card-header>
       <v-card-header-text>

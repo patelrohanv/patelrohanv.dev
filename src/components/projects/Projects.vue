@@ -4,6 +4,8 @@
       <v-col
         v-for="v in values"
         :key="v.key"
+        sm="12"
+        md="6"
       >
         <ProjectCard 
           :title="v.title"

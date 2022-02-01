@@ -12,6 +12,7 @@
           <v-card
             outlined
             shaped
+            height="100%"
           >
             <v-card-header>
               <v-card-header-text>

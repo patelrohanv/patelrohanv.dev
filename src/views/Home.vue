@@ -1,11 +1,9 @@
 <template>
-  <v-container>
-    <Skills />
-    <Work />
-    <Projects />
-    <Education />
-    <Volunteer />
-  </v-container>
+  <Skills />
+  <Work />
+  <Projects />
+  <Education />
+  <Volunteer />
 </template>
 
 <script>
