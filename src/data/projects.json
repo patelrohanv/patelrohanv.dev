@@ -1,9 +1,15 @@
 [
     {
         "title": "patelrohanv.dev",
-        "description": "The repo for this site, check out the README for more details",
+        "description": "The repo for this site, built with Vue/Vuex. check out the README for more details",
         "repo": "https://github.com/patelrohanv/patelrohanv.dev",
         "link": "https://www.patelrohanv.dev"
+    },
+    {
+        "title": "patelrohanv.blog",
+        "description": "The repo for my blog, built with Gatsy,",
+        "repo": "https://github.com/patelrohanv/patelrohanv.blog",
+        "link": "https://www.patelrohanv.blog"
     },
     {
         "title": "Pitt SigRho Website",

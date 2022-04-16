@@ -35,7 +35,8 @@
       "Docker",
       "Git",
       "Bash/Linux",
-      "Teamcity",
+      "CI Tools",
+      "MessageQueues",
       "SQL",
       "Neo4j"
     ]

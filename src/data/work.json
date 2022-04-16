@@ -1,19 +1,39 @@
 [
     {
+        "company": "VMware",
+        "title": "Software Engineer",
+        "start": "February 2022",
+        "end": "",
+        "details": [
+            "Working within VMware at Tanzu Labs in Public Sector Services",
+            "Design/develop modern, mission-critical, cloud-native applications for public sector clients, predominantly JVM languages, Spring, Postgres, and reactTS",
+            "Enable clients via Extreme Programming: test driven development, pair programming, and frequent releases"
+        ]
+    },
+    {
+        "company": "Nucamp",
+        "title": "Instructor - Part Time",
+        "start": "January 2022",
+        "end": "",
+        "details": [
+            "Part time instructor, teaching courses on: Python, SQL; Devops; NodeJS, Express, and MongoDB; and React Native"
+        ]
+    },
+    {
         "company": "Seegrid",
         "title": "Software Engineer Full-Stack",
         "start": "July 2019",
         "end": "December 2021",
         "details": [
-            "Writing software for a data analytics platform to provide insight into truck operations in client facilities",
-            "Wrote software to manage fleet of vision guided warehouse trucks",
+            "Built software for a data analytics platform to provide insight into truck operations in client facilities",
+            "Built software to manage fleet of vision guided warehouse trucks",
             "Built Python (Twisted) micro services to automate material moves using our trucks",
             "Managed communication between server-side services and the trucks using RabbitMQ",
             "Developed an API to allow customers to integrate our trucks into their existing warehouse systems",
             "Developed and handled deployment of a Vue application to monitor material moves",
-            "Developed a map to display truck events within a customer facility",
-            "Automating operating reports generation with Vue, Node, and Azure",
-            "Developing a design system to be used across the company's UIs with Vue and Storybook"
+            "Developed a map to display truck events within a customer facility in Vue",
+            "Automated operating reports generation with Vue, Node, and Azure",
+            "Developed a design system to be used across the company's UIs with Vue and Storybook"
         ]
     },
     {
