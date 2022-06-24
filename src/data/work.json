@@ -6,8 +6,9 @@
         "end": "",
         "details": [
             "Working within VMware at Tanzu Labs in Public Sector Services",
-            "Design/develop modern, mission-critical, cloud-native applications for public sector clients, predominantly JVM languages, Spring, Postgres, and reactTS",
-            "Enable clients via Extreme Programming: test driven development, pair programming, and frequent releases"
+            "Design/develop modern, cloud-native applications for public sector clients, using predominantly: JVM languages, Spring, Postgres, Redis, and reactTS",
+            "Enable clients via Extreme Programming: test driven development, pair programming, and frequent releases",
+            "Practice DevSecOps by integrating security policy compliance into every step of the SDLC"
         ]
     },
     {
@@ -16,7 +17,7 @@
         "start": "January 2022",
         "end": "",
         "details": [
-            "Part time instructor, teaching courses on: Python, SQL; Devops; NodeJS, Express, and MongoDB; and React Native"
+            "Part time instructor, teaching courses on: Python, SQL, Flask; DevOps, Cloud Computing, CI/CD, Testing, Docker, Kubernetes, Django; NodeJS, Express, and MongoDB; and React Native, Redux"
         ]
     },
     {
